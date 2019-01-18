@@ -16,7 +16,7 @@ stages:
       buildContext: .
       tag: example-helloserver:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: docker.io/roverhall
+      registry: roverhall
 - name: Deploy
   steps:
   - applyYamlConfig:
